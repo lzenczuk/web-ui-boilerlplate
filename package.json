@@ -1,0 +1,16 @@
+{
+  "name": "web-ui-boilerlplate",
+  "version": "0.0.1",
+  "description": "Basic web app template using webpack, react and material ui",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lzenczuk",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}

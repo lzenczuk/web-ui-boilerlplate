@@ -22,9 +22,9 @@ module.exports = {
         //open: 'google-chrome', // linux
         proxy: {
             // Example proxy configuration to avoid CORS errors
-            '/eos_api' : {
+            '/eos_api': {
                 target: 'https://node2.liquideos.com:443',
-                pathRewrite: {'^/eos_api' : ''}
+                pathRewrite: {'^/eos_api': ''}
             }
         }
     },

@@ -1,6 +1,6 @@
 {
   "name": "web-ui-boilerlplate",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Basic web app template using webpack, react and material ui",
   "private": true,
   "scripts": {
@@ -21,6 +21,8 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   }

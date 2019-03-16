@@ -1,9 +1,6 @@
-function component() {
-    let element = document.createElement('div');
+import React from 'react';
+import * as ReactDOM from "react-dom";
 
-    element.innerHTML = "Hello world! ".repeat(3);
+const Hello = () => <h3>Hello world!</h3>;
 
-    return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(<Hello/>, document.getElementById('root'));
